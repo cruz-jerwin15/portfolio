@@ -1,0 +1,21 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+.project-section{
+    min-height: 35em;
+    height:auto;
+    background-color: white;
+    padding:3em 3em;
+}
+.project-section h4{
+    font-weight: 700;
+    color:#0081C9;
+}
+
+.project-section h5{
+    font-weight: 700;
+    color:#0081C9;
+}
