@@ -18,10 +18,10 @@ function Project(props) {
 						})}
 					</div>
 					<div className="live-link col-12">
-						<a href="#">
+						<a href={props.project.github}>
 							<i class="fa-brands fa-github"></i>
 						</a>
-						<a href="#">
+						<a href={props.project.vercel}>
 							<Icon
 								className="logo"
 								icon="ion:logo-vercel"

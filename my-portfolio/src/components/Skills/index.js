@@ -16,7 +16,7 @@ function Skills(props) {
 	];
 	return (
 		<>
-			<article id="#skills" className="skill-section container-fluid">
+			<article id="skills" className="skill-section container-fluid">
 				<div className="row">
 					<div className="col-12">
 						<h4>Tech Stack</h4>
@@ -36,21 +36,25 @@ function Skills(props) {
 						<div className="skill-describe">
 							<h5>Teach and Code</h5>
 							<p>
-								Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
-								consequatur rerum temporibus eveniet eaque illo, quod,
-								accusamus, eligendi tenetur ducimus incidunt iure quibusdam
-								dolor nemo! Ad delectus distinctio iste hic. Lorem ipsum dolor
-								sit amet consectetur adipisicing elit. Ad consequatur rerum
-								temporibus eveniet eaque illo, quod, accusamus, eligendi tenetur
-								ducimus incidunt iure quibusdam dolor nemo! Ad delectus
-								distinctio iste hic. Lorem ipsum dolor sit amet consectetur
-								adipisicing elit. Ad consequatur rerum temporibus eveniet eaque
-								illo, quod, accusamus, eligendi tenetur ducimus incidunt iure
-								quibusdam dolor nemo! Ad delectus distinctio iste hic. Lorem
-								ipsum dolor sit amet consectetur adipisicing elit. Ad
-								consequatur rerum temporibus eveniet eaque illo, quod,
-								accusamus, eligendi tenetur ducimus incidunt iure quibusdam
-								dolor nemo! Ad delectus distinctio iste hic.
+								Professor Jerwin Cruz is a highly accomplished professor and
+								full-stack developer with a passion for technology and
+								education. He holds a Master in Information Technology from
+								Technological Institute - Manila and has over 11 years of
+								experience teaching a variety of computer science courses and
+								information technology at both the undergraduate and graduate
+								levels. In addition to his academic work, Prof. Cruz is also a
+								skilled full-stack developer with expertise in a range of
+								programming languages, including C/C++, Javascript,Java,C# and
+								many more. He has worked on a variety of projects, from web and
+								mobile applications to mobile game and machine learning
+								algorithms. Prof. Cruz is known for his ability to bridge the
+								gap between academia and industry, bringing real-world examples
+								and practical applications into the classroom. His students
+								consistently praise him engaging teaching style and his ability
+								to make complex concepts easy to understand. Outside of work,
+								Prof. Cruz enjoys singing and spending time with his family. He
+								is also an active member of the local tech community, frequently
+								participating in hackathons and other programming events.
 							</p>
 						</div>
 					</div>

@@ -44,6 +44,10 @@
 }
 .skill-describe{
     padding-top:3em;
+
+}
+.skill-describe p{
+    text-align: justify;
 }
 .skill-describe h5{
     font-weight: 700;

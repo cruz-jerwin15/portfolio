@@ -5,12 +5,23 @@ function Header(props) {
 	const [link, setLink] = useState(1);
 	const changeNavState = (linkState) => {
 		setLink(linkState);
+		if (linkState === 1) {
+			const section = document.querySelector("#home");
+			section.scrollIntoView({ behavior: "smooth", block: "start" });
+		} else if (linkState === 2) {
+			const section = document.querySelector("#skills");
+			section.scrollIntoView({ behavior: "smooth", block: "start" });
+		} else if (linkState === 3) {
+			const section = document.querySelector("#section_projects");
+			section.scrollIntoView({ behavior: "smooth", block: "start" });
+		}
 	};
+
 	return (
 		<>
 			<header className="col-12">
-				<nav className="navbar navbar-expand-md">
-					<div className="container-fluid">
+				<nav className="navbar navbar-expand-md fixed-top">
+					<div id="home" className="container-fluid">
 						<a className="navbar-brand fw-bolder" href="#home">
 							JERZCRUZ
 						</a>
@@ -62,7 +73,7 @@ function Header(props) {
 								<li className="nav-item">
 									<a
 										className="nav-link mt-2"
-										href="#"
+										href="#section_projects"
 										onClick={() => changeNavState(3)}
 									>
 										Projects
@@ -129,12 +140,16 @@ function Header(props) {
 							</div>
 							<div>
 								<p className="text-white fs-5">
-									Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga
-									ex iusto suscipit ipsam nostrum saepe, debitis obcaecati amet
-									officiis adipisci dolor! Ratione mollitia fugit est voluptates
-									deleniti! Dolore, veritatis ipsam! debitis obcaecati amet
-									officiis adipisci dolor! Ratione mollitia fugit est voluptates
-									deleniti! Dolore, veritatis ipsam!
+									Professor Jerwin Cruz is a highly accomplished professor and
+									full-stack developer with a Master in Information Technology
+									from Technological Institute - Manila. He has over 11 years of
+									experience teaching computer science and information
+									technology courses and is skilled in several programming
+									languages, including C/C++, Javascript,Java,C# and many more.
+									Prof. Cruz is known for his ability to bridge the gap between
+									academia and industry and make complex concepts easy to
+									understand. He is an active member of the tech community and
+									enjoys singing and spending time with his family.
 								</p>
 							</div>
 						</div>
